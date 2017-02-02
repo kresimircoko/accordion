@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Accordion</title>
+  </head>
+  <body>
+    <sc-accordion role="tablist">
+      <sc-pane aria-expanded="true" tabindex="0" role="tabpanel">
+        <button role="tab">Panel 1</button>
+        <div class="content">
+            <p>Content</p>
+        </div>
+      </sc-pane>
+      <sc-pane tabindex="0" role="tabpanel">
+        <button role="tab">Panel 2</button>
+        <div class="content">
+            <p>Pickled enim irure  yr, kogi ea keytar typewriter vape paleo fam chambray fap ugh.  Locavore snackwave chia, master cleanse vero pickled do dolor.  Biodiesel roof party mlkshk you probably haven't heard of them, ennui sunt fanny pack.  Enim labore iPhone, affogato put a bird on it seitan meh sriracha sint  officia  forage copper mug tbh la croix.  Messenger bag irure  cliche, nisi elit cred blue bottle est  XOXO.  Iceland listicle dolore keffiyeh, artisan hammock fap bitters.  Qui  locavore try-hard, slow-carb adipisicing messenger bag velit.</p>
+        </div>
+      </sc-pane>
+      <sc-pane tabindex="0" role="tabpanel">
+        <button role="tab">Panel 3</button>
+        <div class="content">
+          <p>Content</p>
+        </div>
+      </sc-pane>
+    </sc-accordion>
+  <script>
+    document.querySelector('sc-accordion').setAttribute('enhanced', '');
+  </script>
+  <script src="./sc-pane.js"></script>
+  <script src="./sc-accordion.js"></script>
+  </body>
+</html>
